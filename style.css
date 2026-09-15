@@ -326,3 +326,32 @@ a:hover {
   border-radius: 50%;
   background-color: #2f6f73;
 }
+/* =========================
+   LLAMADA A LA ACCIÓN
+   ========================= */
+
+main > section:last-of-type {
+  text-align: center;
+  background-color: #f8faf9;
+}
+
+main > section:last-of-type p {
+  max-width: 600px;
+  margin: 0 auto 28px;
+  color: #5f6c72;
+}
+
+main > section:last-of-type a {
+  display: inline-block;
+  padding: 12px 26px;
+  background-color: #2f6f73;
+  color: #ffffff;
+  border-radius: 4px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+main > section:last-of-type a:hover {
+  background-color: #24585b;
+  text-decoration: none;
+}
