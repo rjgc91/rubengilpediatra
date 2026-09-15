@@ -197,13 +197,16 @@ a:hover {
 .problemas {
   padding-top: 70px;
   padding-bottom: 80px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
 }
 
 .problemas > h2 {
+  grid-column: 1 / -1;
   text-align: center;
   margin-bottom: 45px;
 }
-
 .problemas article {
   padding: 28px;
   border: 1px solid #e1e7e8;
@@ -225,12 +228,8 @@ a:hover {
 
 .problemas {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 20px;
-}
-
-.problemas > h2 {
-  grid-column: 1 / -1;
 }
 
 
