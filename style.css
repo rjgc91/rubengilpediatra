@@ -264,3 +264,22 @@ a:hover {
 .sobre-mi p {
   color: #4f5b60;
 }
+/* =========================
+   PARA PADRES
+   ========================= */
+
+.para-padres {
+  text-align: center;
+  background-color: #f8faf9;
+}
+
+.para-padres p {
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #5f6c72;
+}
+
+.para-padres strong {
+  color: #2f6f73;
+}
