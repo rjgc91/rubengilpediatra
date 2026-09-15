@@ -294,7 +294,7 @@ a:hover {
 
 #centros h2 {
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 45px;
 }
 
 #centros h3 {
@@ -305,4 +305,24 @@ a:hover {
 #centros p {
   color: #5f6c72;
   margin-bottom: 30px;
+}
+
+#centros h3,
+#centros p {
+  padding-left: 24px;
+}
+
+#centros h3 {
+  position: relative;
+}
+
+#centros h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.35em;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #2f6f73;
 }
