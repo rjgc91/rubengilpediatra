@@ -243,3 +243,24 @@ a:hover {
   }
 
 }
+/* =========================
+   SOBRE MÍ
+   ========================= */
+
+.sobre-mi {
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.sobre-mi h2 {
+  margin-bottom: 30px;
+}
+
+.sobre-mi h3 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.sobre-mi p {
+  color: #4f5b60;
+}
