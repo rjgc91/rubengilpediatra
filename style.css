@@ -283,3 +283,26 @@ a:hover {
 .para-padres strong {
   color: #2f6f73;
 }
+/* =========================
+   CENTROS DE CONSULTA
+   ========================= */
+
+#centros {
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+#centros h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#centros h3 {
+  color: #2f6f73;
+  margin-bottom: 4px;
+}
+
+#centros p {
+  color: #5f6c72;
+  margin-bottom: 30px;
+}
