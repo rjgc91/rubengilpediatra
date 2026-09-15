@@ -190,3 +190,57 @@ a:hover {
     font-size: 1.05rem;
   }
 }
+/* =========================
+   PROBLEMAS DIGESTIVOS
+   ========================= */
+
+.problemas {
+  padding-top: 70px;
+  padding-bottom: 80px;
+}
+
+.problemas > h2 {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.problemas article {
+  padding: 28px;
+  border: 1px solid #e1e7e8;
+  border-radius: 8px;
+  background-color: #f8faf9;
+}
+
+.problemas article h3 {
+  color: #2f6f73;
+}
+
+.problemas article p {
+  margin-bottom: 0;
+  color: #5f6c72;
+}
+
+
+/* Rejilla */
+
+.problemas {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.problemas > h2 {
+  grid-column: 1 / -1;
+}
+
+
+/* Móvil */
+
+@media (max-width: 700px) {
+
+  .problemas {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+}
