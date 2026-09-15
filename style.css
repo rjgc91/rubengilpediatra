@@ -110,3 +110,83 @@ a:hover {
     font-size: 1.25rem;
   }
 }
+/* =========================
+   CABECERA
+   ========================= */
+
+.site-header {
+  padding: 28px 24px;
+  text-align: center;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.site-header h1 {
+  margin-bottom: 4px;
+  font-size: 1.8rem;
+}
+
+.site-header p {
+  margin: 0;
+  color: #5f6c72;
+  font-size: 1rem;
+}
+
+
+/* =========================
+   HERO
+   ========================= */
+
+.hero {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 100px 24px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2.8rem;
+  max-width: 800px;
+  margin: 0 auto 24px;
+}
+
+.hero p {
+  max-width: 650px;
+  margin: 0 auto 32px;
+  font-size: 1.15rem;
+  color: #5f6c72;
+}
+
+.hero a {
+  display: inline-block;
+  padding: 12px 26px;
+  background-color: #2f6f73;
+  color: #ffffff;
+  border-radius: 4px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.hero a:hover {
+  background-color: #24585b;
+  text-decoration: none;
+}
+
+
+/* =========================
+   HERO EN MÓVIL
+   ========================= */
+
+@media (max-width: 700px) {
+
+  .hero {
+    padding: 70px 20px;
+  }
+
+  .hero h2 {
+    font-size: 2.1rem;
+  }
+
+  .hero p {
+    font-size: 1.05rem;
+  }
+}
