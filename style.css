@@ -355,3 +355,18 @@ main > section:last-of-type a:hover {
   background-color: #24585b;
   text-decoration: none;
 }
+/* =========================
+   PIE DE PÁGINA
+   ========================= */
+
+footer {
+  padding: 30px 24px;
+  text-align: center;
+  border-top: 1px solid #e1e7e8;
+  color: #6b7478;
+  font-size: 0.9rem;
+}
+
+footer p {
+  margin: 0;
+}
