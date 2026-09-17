@@ -306,22 +306,10 @@ a:hover {
 }
 
 #centros h3 {
-  color: #2f6f73;
-  margin-bottom: 4px;
-}
-
-#centros p {
-  color: #5f6c72;
-  margin-bottom: 30px;
-}
-
-#centros h3,
-#centros p {
-  padding-left: 24px;
-}
-
-#centros h3 {
   position: relative;
+  margin-bottom: 4px;
+  padding-left: 24px;
+  color: #2f6f73;
 }
 
 #centros h3::before {
@@ -333,6 +321,12 @@ a:hover {
   height: 8px;
   border-radius: 50%;
   background-color: #2f6f73;
+}
+
+#centros p {
+  margin-bottom: 30px;
+  padding-left: 24px;
+  color: #5f6c72;
 }
 /* =========================
    LLAMADA A LA ACCIÓN
