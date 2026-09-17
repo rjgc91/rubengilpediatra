@@ -254,16 +254,18 @@ a:hover {
 }
 
 .sobre-mi h2 {
-  margin-bottom: 30px;
+  margin-bottom: 32px;
 }
 
 .sobre-mi h3 {
-  margin-top: 50px;
-  margin-bottom: 20px;
+  margin-top: 55px;
+  margin-bottom: 22px;
+  color: #2f6f73;
 }
 
 .sobre-mi p {
   color: #4f5b60;
+  margin-bottom: 22px;
 }
 /* =========================
    PARA PADRES
