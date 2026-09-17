@@ -274,6 +274,11 @@ a:hover {
 .para-padres {
   text-align: center;
   background-color: #f8faf9;
+  padding: 75px 24px;
+}
+
+.para-padres h2 {
+  margin-bottom: 24px;
 }
 
 .para-padres p {
