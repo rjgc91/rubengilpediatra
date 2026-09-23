@@ -426,6 +426,32 @@ a:hover {
   margin: 0;
   color: #5f6c72;
 }
+.lista-centros a {
+  display: inline-block;
+  margin-top: 18px;
+  padding: 10px 18px;
+  background-color: #2f6f73;
+  color: #ffffff;
+  border-radius: 4px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+}
+
+.lista-centros a:hover {
+  background-color: #24585b;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px rgba(36, 59, 83, 0.08);
+  text-decoration: none;
+}
+
+.lista-centros small {
+  display: block;
+  margin-top: 10px;
+  color: #6b7478;
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
 
 
 /* Móvil */
