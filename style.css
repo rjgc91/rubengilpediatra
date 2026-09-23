@@ -487,3 +487,7 @@ footer p {
   }
 
 }
+.sobre-mi-imagen {
+  max-width: 430px;
+  margin: 0 auto;
+}
