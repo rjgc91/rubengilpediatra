@@ -301,8 +301,16 @@ a:hover {
    ========================= */
 
 .sobre-mi {
-  max-width: 850px;
+  max-width: 1100px;
   margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 60px;
+  align-items: start;
+}
+
+.sobre-mi-contenido {
+  min-width: 0;
 }
 
 .sobre-mi h2 {
@@ -318,6 +326,36 @@ a:hover {
 .sobre-mi p {
   color: #4f5b60;
   margin-bottom: 22px;
+}
+
+.sobre-mi-imagen {
+  position: sticky;
+  top: 30px;
+}
+
+.sobre-mi-imagen img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+}
+
+
+/* Móvil */
+
+@media (max-width: 700px) {
+
+  .sobre-mi {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+
+  .sobre-mi-imagen {
+    position: static;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
 }
 /* =========================
    PARA PADRES
