@@ -171,7 +171,7 @@ a:hover {
 
   .site-header-content {
     flex-direction: column;
-    gap: 18px;
+    gap: 20px;
   }
 
   .site-header-brand {
@@ -180,16 +180,25 @@ a:hover {
 
   .site-nav {
     width: 100%;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 0;
+    border-top: 1px solid #e5e7eb;
+    border-bottom: 1px solid #e5e7eb;
   }
 
   .site-nav a {
-    padding: 0 12px;
+    padding: 10px 8px;
+    text-align: center;
+    font-size: 0.9rem;
   }
 
-  .site-nav a + a {
-    border-left: 1px solid #d5dddd;
+  .site-nav a:nth-child(odd) {
+    border-right: 1px solid #d5dddd;
+  }
+
+  .site-nav a:nth-child(-n+2) {
+    border-bottom: 1px solid #d5dddd;
   }
 
 }
