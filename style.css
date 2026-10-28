@@ -585,3 +585,61 @@ footer p {
   max-width: 430px;
   margin: 0 auto;
 }
+
+/* =========================
+   ARTÍCULO PARA PADRES
+   ========================= */
+
+.article-header {
+  margin-bottom: 36px;
+}
+
+.article-category {
+  margin-bottom: 14px;
+  color: #2f6f73;
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.article-header h1 {
+  margin-bottom: 24px;
+}
+
+.article-content {
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+.article-content h2 {
+  margin-top: 42px;
+  margin-bottom: 18px;
+}
+
+.article-cta {
+  margin-top: 48px;
+  padding: 30px;
+  background-color: #f8faf9;
+  border: 1px solid #e1e7e8;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.article-cta h2 {
+  margin-top: 0;
+}
+
+.back-link {
+  margin: 36px 0;
+}
+
+@media (max-width: 700px) {
+  .article-category {
+    font-size: 1.1rem;
+  }
+
+  .article-cta {
+    padding: 24px 18px;
+  }
+}
