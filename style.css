@@ -643,3 +643,19 @@ footer p {
     padding: 24px 18px;
   }
 }
+.article-references {
+  margin-top: 48px;
+  padding-top: 24px;
+  border-top: 1px solid #e1e7e8;
+  font-size: 0.9rem;
+  color: #5f6c72;
+}
+
+.article-references h2 {
+  font-size: 1.25rem;
+  margin-bottom: 14px;
+}
+
+.article-references p {
+  margin-bottom: 12px;
+}
